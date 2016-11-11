@@ -2,6 +2,9 @@
 
 Nginx docker image with json log format.
 
+### Usage
+
+Set variable $application to your application name, and create a server directive specifying "json" as access_log type, as in the below example.
 
 default.conf example
 
